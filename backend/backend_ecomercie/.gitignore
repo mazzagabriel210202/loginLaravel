@@ -1,0 +1,54 @@
+# Logs
+*.log
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente
+.env
+.env.backup
+.env.production
+
+# Credenciais do Composer
+/auth.json
+
+# Dependências
+/vendor
+/node_modules
+
+# Build e arquivos gerados
+/public/build
+/public/fonts-manifest.dev.json
+/public/hot
+/public/storage
+
+# Storage
+/storage/*.key
+/storage/pail
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/testing/*
+
+# Cache do Laravel
+/bootstrap/cache/*.php
+
+# Ferramentas e IDEs
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+
+# Arquivos auxiliares
+.phpactor.json
+.phpunit.result.cache
+_ide_helper.php
+
+# Homestead
+Homestead.json
+Homestead.yaml
